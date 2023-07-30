@@ -1,0 +1,45 @@
+body {
+    background-image: url("blackcubes.jpeg");
+    font-family: "Lumanosimo";
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+h6 {
+    color: grey;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+.info {
+    font-size: 40px;
+    color: white;
+    width: 50%;
+    margin-left: 20%;
+    font-weight: 600;
+}
+
+.startProjectbuttongroup {
+    width: 25%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but {
+    background-color: black;
+    color: white;
+    border: solid 2px;
+    height: 40px;
+}
+
+.brandGroup {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
